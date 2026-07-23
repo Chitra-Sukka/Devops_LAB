@@ -1,19 +1,10 @@
-import java.util.Scanner;
-
 public class AddNumbers {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        int num1 = 10;
+        int num2 = 20;
 
-        System.out.print("Enter the first number: ");
-        int a = sc.nextInt();
+        int sum = num1 + num2;
 
-        System.out.print("Enter the second number: ");
-        int b = sc.nextInt();
-
-        int sum = a + b;
-
-        System.out.println("The sum is: " + sum);
-
-        sc.close();
+        System.out.println("Sum = " + sum);
     }
 }
